@@ -5,6 +5,7 @@ const button1 = document.getElementById('button-1');
 const img1 = document.querySelector('#img-1');
 const img2 = document.querySelector('#img-2');
 const img3 = document.querySelector('#img-3');
+const resetButton = document.getElementById('reset-button');
 
 const winsEl = document.getElementById('wins');
 const lossesEl = document.getElementById('losses');
@@ -31,6 +32,13 @@ button1.addEventListener('click', () => {
         img3.classList.add('reveal');
     }
     displayResults();
+});
+
+resetButton.addEventListener('click', () => {
+    wins = 0;
+    total = 0;
+    displayResults();
+    resetPearls();
 });
 
 function resetPearls() {

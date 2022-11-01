@@ -39,18 +39,17 @@ img {
     padding-right: 1rem;
 }
 
-.stat {
-    padding-right: 5rem;
-}
-
 button {
     margin-right: 2rem;
+    border-radius: 25px;
 }
 
 .shells {
-    margin-top: 40px;
+    margin-top: 150px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .shell {
@@ -83,9 +82,29 @@ button {
 }
 
 .stat {
-    padding-right: 5rem;
+    text-align: center;
+    width: 175px;
+    margin-right: 84%;
+    margin-left: 16%;
+    padding-top: 0.5rem;
+    padding-right: 50px;
 }
 
-button {
-    margin-right: 2rem;
+.stats {
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+    width: fit-content;
+    margin-left: 250px;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset {
+    text-align: center;
+    width: 175px;
+    margin-left: 275px;
+    margin-top: 25px;
+    padding-top: 0.5rem;
+    padding-right: 50px;
 }
